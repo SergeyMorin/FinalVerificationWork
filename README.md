@@ -25,3 +25,4 @@ Final verification work
 [“Russia”, “Denmark”, “Kazan”] → []
 
 Вспомогательные материалы
+https://learn.microsoft.com/ru-ru/dotnet/api/system.array.resize?view=net-7.0
