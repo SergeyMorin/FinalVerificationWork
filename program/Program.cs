@@ -6,22 +6,14 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
-// ["4G" ,"0422", "042B", ":-)" , "041A", "041E", "0417", "041B", "0418", "043D", "0430" , "14"] → [ {4G} {:-)} {14} ]
 
 string[] arrayEx1 = new string[] { "Hello", "world", "2", ":-)" }; //Пример массива 1
 string[] arrayEx2 = new string[] { "1234", "1567", "-2", "computer since" }; //Пример массива 2
 string[] arrayEx3 = new string[] { "Russia", "Denmark", "Kazan" }; //Пример массива 3
-string[] arrayEx4 = new string[] { "4G" ,"0422", "042B", ":-)" , "041A", "041E", "0417", "041B", "0418", "043D", "0430" , "14"}; //Пример массива 4
-string[] arrayEx4 = new string[] { "4G" ,"0422", "042B", ":-)" , "041A", "041E", "0417", "041B", "0418", "043D", "0430" , "14"}; //Пример массива 4
 
 PrintFrameAndArray(arrayEx1); //Пример 1 Вывод результата в консоль
 PrintFrameAndArray(arrayEx2); //Пример 2 Вывод результата в консоль
 PrintFrameAndArray(arrayEx3); //Пример 3 Вывод результата в консоль
-PrintFrameAndArray(arrayEx4); //Пример 4 Вывод результата в консоль
-PrintFrameAndArray(arrayEx1); //Пример 1 Вывод результата в консоль
-PrintFrameAndArray(arrayEx2); //Пример 2 Вывод результата в консоль
-PrintFrameAndArray(arrayEx3); //Пример 3 Вывод результата в консоль
-PrintFrameAndArray(arrayEx4); //Пример 4 Вывод результата в консоль
 
 void PrintArray(string[] array) // вывод массива в консоль
 {
