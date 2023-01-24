@@ -55,6 +55,29 @@ Final verification work
 
 `return outArray;`
 
+## Основной код
+
+    string[] Program(string[] imputArray)
+    {
+        string[] outArray = new string[1];
+        outArray[0] = "there are no strings in the array whose length is less than or equal to 3 characters";
+        int sizeOutArray = 0;
+        for (int i = 0; i < imputArray.Length; i++)
+           {
+            if (imputArray[i].Length <= 3)
+                {
+                sizeOutArray++;
+                Array.Resize(ref outArray, sizeOutArray);
+                outArray[sizeOutArray - 1] = imputArray[i];
+                }
+            }
+    return outArray;
+    }
+
+## Изображение основного кода
+
+![изображение основного кода](.\MainProgram.png)
+
 ## Блок-схема алгоритма
 
 ![блок-схема алгоритма](.\BlockDiagramOfTheAlgorithm.png)
