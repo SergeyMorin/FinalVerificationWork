@@ -88,3 +88,6 @@ Final verification work
 
 ## Вспомогательные материалы
 https://learn.microsoft.com/ru-ru/dotnet/api/system.array.resize?view=net-7.0
+
+## Google Disc
+https://drive.google.com/drive/folders/1-D8ukysL1O6Feh8XhbgGWQcQf_LGnM0k?usp=sharing
