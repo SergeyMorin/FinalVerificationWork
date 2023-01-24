@@ -82,5 +82,9 @@ Final verification work
 
 ![блок-схема алгоритма](.\BlockDiagramOfTheAlgorithm.png)
 
+## GIT Ветки
+
+![GIT Ветки](.\GitBranch.png)
+
 ## Вспомогательные материалы
 https://learn.microsoft.com/ru-ru/dotnet/api/system.array.resize?view=net-7.0
